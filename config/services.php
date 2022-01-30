@@ -30,4 +30,7 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'weather_api' => [
+        'api_key' => env('WEATHER_API_KEY')
+    ],
 ];
